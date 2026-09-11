@@ -74,7 +74,7 @@ creditsstart:
 ;---
 authbuff:
  db $24,$8C,authbuff_end-3-authbuff
- db "AUTORZY"-54,$2C
+ db "AUTHORS"-54,$2C
 authbuff_end
  db 255
  
@@ -99,6 +99,6 @@ Muzyka_end
  db "OZZED"-54
 Ozzed:
  db $26,$A8-3,Ozzed_end-3-Ozzed
- db "NA"-54,0,"LICENCJI"-54,0,"CC"-54,0,"BY"-54,$6F,"SA"-54,0,4,$2B,1
+ db "UNDER"-54,0,"CC"-54,0,"BY"-54,$6F,"SA"-54,0,4,$2B,1
 Ozzed_end
  db 255
