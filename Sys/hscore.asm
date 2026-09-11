@@ -213,7 +213,7 @@ rekordatt:
  
 rekordgrat:
  db $20,$8A,rekordgrat_end-3-rekordgrat
- db "GRATULACJE"-54,$25
+ db "CONGRATULATIONS"-54,$25
 rekordgrat_end
  db 255
  
