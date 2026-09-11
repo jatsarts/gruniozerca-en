@@ -234,16 +234,16 @@ pressst_end
  
 edycjalimitowana:
  db $22,$44,edycjalimitowana_end-3-edycjalimitowana
- db "EDYCJA"-54,0,"ULTRA"-54,0,"LIMITOWANA"-54
+ db "ULTRA"-54,0,"LIMITED"-54,0,"EDITION"-54
 edycjalimitowana_end
  db 255
  
 limitedbuff
  db $22,$A6,pressst_end3-3-limitedbuff
- db "DOBRE"-54,0,"SERCE"-54,0,"OKAZALI"-54,$2C
+ db "SPONSORED"-54,0,"BY"-54,$2C
 pressst_end3
  db $22,$E6,pressst_end4-3-pressst_end3
- db "ARCHON"-54,$A4,0,"GREM"-54,0,"I"-54,0,"QZAK"-54
+ db "ARCHON"-54,$A4,0,"GREM"-54,$A4,0,"I"-54,0,"QZAK"-54
 pressst_end4
  db 255
  
@@ -260,7 +260,7 @@ emptyline:
  
 emunesbuff
  db $20,$20,emunesbuff_end-3-emunesbuff
- db "EMUNES"-54,$2B,"PL DLA"-54
+ db "EMUNES"-54,$2B,"PL FOR"-54
 emunesbuff_end
  db $20,$40,emunesbuff_end2-3-emunesbuff_end
  db "GRAMYTATYWNIE"-54
