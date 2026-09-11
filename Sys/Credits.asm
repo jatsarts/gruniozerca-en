@@ -93,12 +93,12 @@ Rysard_end
 
 Muzyka:
  db $26,$26,Muzyka_end-3-Muzyka
- db "MUZYKE"-54,0,"SKOMPONOWA"-54,$2D,$2C
+ db -54,0,"MUSIC"-54,0,"COMPOSED"-54,0,"BY"-54,$2C
 Muzyka_end
  db $26,$6D,Ozzed-3-Muzyka_end
  db "OZZED"-54
 Ozzed:
  db $26,$A8-3,Ozzed_end-3-Ozzed
- db "UNDER"-54,0,"CC"-54,0,"BY"-54,$6F,"SA"-54,0,4,$2B,1
+ db -54,0,"UNDER"-54,0,"CC"-54,0,"BY"-54,$6F,"SA"-54,0,4,$2B,1
 Ozzed_end
  db 255

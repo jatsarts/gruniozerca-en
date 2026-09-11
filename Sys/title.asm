@@ -234,7 +234,7 @@ pressst_end
  
 edycjalimitowana:
  db $22,$44,edycjalimitowana_end-3-edycjalimitowana
- db "ULTRA"-54,0,"LIMITED"-54,0,"EDITION"-54
+ db -54,0,"ULTRA"-54,0,"LIMITED"-54,0,"EDITION"-54
 edycjalimitowana_end
  db 255
  
@@ -243,7 +243,7 @@ limitedbuff
  db "SPONSORED"-54,0,"BY"-54,$2C
 pressst_end3
  db $22,$E6,pressst_end4-3-pressst_end3
- db "ARCHON"-54,$A4,0,"GREM"-54,$A4,0,"I"-54,0,"QZAK"-54
+ db "ARCHON"-54,$A4,0,"GREM"-54,$A4,0,"AND"-54,0,"QZAK"-54
 pressst_end4
  db 255
  

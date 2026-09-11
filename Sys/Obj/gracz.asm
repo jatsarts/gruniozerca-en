@@ -69,7 +69,7 @@ gruniocols:
 
 pausebuff:
  db $21,$4C,pausebuff_end-3-pausebuff
- db "PAUZA"-54
+ db "PAUSE"-54
 pausebuff_end
  db 255
  
